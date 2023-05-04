@@ -1,0 +1,46 @@
+@import url(style.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    width: 1440px;
+    margin: auto;
+}
+#showcase{
+    background-color:  hsl(0, 0%, 100%);
+    width:  17.5%;
+    padding: 13px;
+    border-radius: 15px;
+    margin-top: 20vh;
+    margin-left: 80vh;
+    padding-bottom: 30px;
+}
+#showcase img{
+    border-radius: 10px;
+    display: block;
+}
+#showcase p{
+    font-size:  20px;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+@media screen and (min-width: 375px) {
+    body{
+        background-color: hsl(212, 45%, 89%);
+        width: 375px;
+        margin: auto;
+    }
+    #showcase{
+        background-color:  hsl(0, 0%, 100%);
+        width:  68%;
+        padding: 13px;
+        border-radius: 15px;
+        margin: 0;
+        margin-top: 20vh;
+        margin-left: 8vh;
+       
+    }
+}
